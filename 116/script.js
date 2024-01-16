@@ -28,10 +28,10 @@ function getLargerNumber(a,b){
   {    return a.salary;  }
   else {return b.salary;}}
 
-
+//define variables for the results
   const fullName = getFullName(users[1]);
   const largerNumber = getLargerNumber(salaryList[0],salaryList[2]);
-
+//output the results
   console.log(fullName);
   console.log(largerNumber);
 
