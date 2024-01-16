@@ -31,11 +31,21 @@ const salaryList = [
   {salary:6000},
   {salary:4600},
 ];
-console.log(salaryList[1]);
-console.log(salaryList[1].salary);
+//console.log(salaryList[1]);
+//console.log(salaryList[1].salary);
 
 function getFullName(user){
-  return users.firstName + ' ' + user.lastName;
+  return user.firstName + ' ' + user.lastName;
   };
+function getLargerNumber(a,b){
+  if (a.salary>b.salary)
+  {    return a.salary;  }
+  else {return b.salary;}
+}
+ 
+
   const fullName = getFullName(users[1]);
   console.log(fullName);
+  const largerNumber = getLargerNumber(salaryList[0],salaryList[2]);
+  console.log(largerNumber);
+
