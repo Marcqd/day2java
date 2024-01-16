@@ -23,15 +23,15 @@ const salaryList =
 //function declaration
 function getFullName(user){
   return user.firstName + ' ' + user.lastName;};
-
 function getLargerNumber(a,b){
   if (a.salary>b.salary)
   {    return a.salary;  }
   else {return b.salary;}}
- 
+
 
   const fullName = getFullName(users[1]);
-  console.log(fullName);
   const largerNumber = getLargerNumber(salaryList[0],salaryList[2]);
+
+  console.log(fullName);
   console.log(largerNumber);
 
