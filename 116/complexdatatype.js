@@ -36,9 +36,8 @@ const users =[
     firstName:"Sally",
     lastName:"Fields",
     isActive:true,
-  }
-
+  },
 ]
 
-console.log(users[]);
-
+console.log(users[1].firstName);
+console.log(users[1].firstName, users[2].lastName);
